@@ -14,11 +14,8 @@ difference() {
     }
     // RELOAD: Tapon_Kayak (1).STL
     
-    difference() {
-        //translate ([12.5,30,12.5]) rotate([180,0,0])
         import("C:/Users/Bob/Documents/3D Printing/SCAD/Kayak/Tapon_Kayak.stl");
-        cube([60,10,60]);
-    }
+    
     translate([10, 2.2, 0]){
       color([1,0.8,0]) {
         hull() {
